@@ -1,0 +1,32 @@
+How to access an array:
+
+var tan = ['john', 'jon', 'cool', 3, 11, 7. 9, null, undefined, [' no shirt', 27, null]];
+
+tan[9];
+console.log to no shirt, 27, null
+
+tan[9][0];
+console.log to 'no shirt'
+
+
+How to access an object:
+
+var yoloSwag = {
+  isaaha : 'beast',
+  hair : 'sunshine',
+  sayings : ['what what?', 'hold me im cold', 'yaloha'],
+  position : 'kicker'
+}
+
+console.log(yoloSwag);
+
+To get   isaaha : 'beast',
+  hair : 'sunshine',
+  sayings : ['what what?', 'hold me im cold', 'yaloha'],
+  position : 'kicker'
+
+To access his saying 'yoloha' :
+console.log(yoloSwag.sayings[2])
+
+To access his saying 'hold me im cold' :
+console.log(yoloSwag['sayings'][1])
